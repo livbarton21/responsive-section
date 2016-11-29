@@ -18,15 +18,15 @@ html {
 }
 
 body {
-margin: 0;
+  margin: 0;
 }
 
 h1 {
-color: black;
-font-size: 1.5rem;
+  color: black;
+  font-size: 1.5rem;
 }
 
-.section p {
+section p {
   margin: 0;
   padding: 0;
 }
@@ -46,14 +46,15 @@ section {
 .section-body {
   margin: 1rem;
 }
+
 .wrapper {
-  margin: 0;
+  margin: 0 auto;
   max-width: 45em;
 }
 
 section h2 {
-margin: 0;
-padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .section-letter {
