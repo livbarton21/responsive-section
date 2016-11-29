@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
+  font: normal 1rem/1.5 "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -18,7 +18,6 @@ html {
 }
 
 body {
-display: block;
 margin: 0;
 }
 
@@ -27,12 +26,45 @@ color: black;
 font-size: 1.5rem;
 }
 
-header {
-  background-color: #e5c30a;
+.section p {
   margin: 0;
+  padding: 0;
 }
 
+section {
+  background-color: #e5c30a;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.section-body {
+  margin: 1rem;
+}
+.wrapper {
+  margin: 0;
+  max-width: 45em;
+}
+
+section h2 {
+margin: 0;
+padding: 0;
+}
+
+.section-letter {
+  width: 43%;
+  float: left;
+}
+
+.section-icon {
+  width: 43%;
+  float: left;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -44,6 +76,16 @@ header {
   h1,
   p {
     margin: 0 0 1.3rem;
+  }
+
+  .section-letter {
+    width: 40%;
+    float: left;
+  }
+
+  .section-icon {
+    width: 40%;
+    float: left;
   }
 
 }
@@ -58,6 +100,22 @@ header {
   h1,
   p {
     margin: 0 0 1.4rem;
+  }
+
+  .section-letter {
+    width: 20%;
+    float: left;
+  }
+
+  .section-icon {
+    width: 20%;
+    float: right;
+  }
+
+  .section-body {
+    margin: 1rem;
+    float: left;
+    width: 50%;
   }
 
 }
