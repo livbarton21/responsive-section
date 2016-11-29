@@ -18,15 +18,18 @@ html {
 }
 
 body {
-
+display: block;
+margin: 0;
 }
 
 h1 {
-
+color: black;
+font-size: 1.5rem;
 }
 
 header {
-background-color: #e5c30a
+  background-color: #e5c30a;
+  margin: 0;
 }
 
 
