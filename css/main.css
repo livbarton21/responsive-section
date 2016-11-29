@@ -10,11 +10,26 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+
+}
+
+h1 {
+
+}
+
+header {
+background-color: #e5c30a
+}
+
+
 
 @media only screen and (min-width: 25em) {
 
